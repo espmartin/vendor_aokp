@@ -7,7 +7,8 @@ $(call inherit-product, vendor/aokp/configs/common.mk)
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/ace
 
 # Inherit AOSP device configuration for ace
-$(call inherit-product, device/htc/ace/full_ace.mk)
+#$(call inherit-product, device/htc/ace/full_ace.mk)
+$(call inherit-product, device/htc/ace/device_ace.mk)
 
 # Setup device specific product configuration.
 PRODUCT_NAME := aokp_ace
