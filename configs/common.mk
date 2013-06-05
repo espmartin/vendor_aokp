@@ -81,6 +81,7 @@ PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallp
 # T-Mobile theme engine
 -include vendor/aokp/configs/themes_common.mk
 
-# common boot animation
-PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+# common boot animation - REMOVED AND USED IN "https://github.com/espmartin/vendor_aokp/blob/jb-mr1/products/ace.mk"
+# TO THIS: vendor/aokp/prebuilt/bootanimation/bootanimation_480_800.zip:system/media/bootanimation.zip
+# PRODUCT_COPY_FILES += \
+#    vendor/aokp/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
