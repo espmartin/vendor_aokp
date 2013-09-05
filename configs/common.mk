@@ -1,5 +1,5 @@
 # use 4.9 toolchain
-USE_SABERMOD_ANDROIDEABI_49 := true
+USE_KRAZYKAT_ANDROIDEABI_49 := true
 
 SUPERUSER_EMBEDDED := true
 
