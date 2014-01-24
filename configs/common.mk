@@ -16,7 +16,6 @@ PRODUCT_PACKAGES += \
     Microbes \
     ROMControl \
     Stk \
-    su \
     SwagPapers \
     Torch \
     UnicornPorn \
