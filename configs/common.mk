@@ -20,6 +20,8 @@ PRODUCT_PACKAGES += \
     Torch \
     UnicornPorn \
     Superuser \
+    SuperSU \
+    SuperSU.apk \
     su
 
 # Terminal Emulator
