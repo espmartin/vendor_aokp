@@ -17,12 +17,7 @@ PRODUCT_PACKAGES += \
     ROMControl \
     Stk \
     SwagPapers \
-    Torch \
-    UnicornPorn \
-    Superuser \
-    SuperSU \
-    SuperSU.apk \
-    su
+    Torch
 
 # Terminal Emulator
 PRODUCT_COPY_FILES += \
