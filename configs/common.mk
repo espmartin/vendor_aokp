@@ -16,7 +16,9 @@ PRODUCT_PACKAGES += \
     ROMControl \
     Stk \
     SwagPapers \
-    Torch
+    Torch \
+    Superuser \
+    su
 
 # Terminal Emulator
 PRODUCT_COPY_FILES += \
