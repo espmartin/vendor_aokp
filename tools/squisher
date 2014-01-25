@@ -207,7 +207,7 @@ echo -e $CL_RED"     \\\\ \\\\ \\\\/\\\\ \\\\"$CL_MAG" \\\\ \\\\_\\\\ \\\\"$CL_C
 echo -e $CL_RED"      \\\\ \\\\_\\\\ \\\\_\\\\"$CL_MAG" \\\\_____\\\\"$CL_CYN" \\\\_\\\\ \\\\_\\\\"$CL_BLU"\\\\ \\\\_\\\\"$CL_RST
 echo -e $CL_RED"       \\\\/_/\\\\/_/"$CL_MAG"\\\\/_____/"$CL_CYN"\\\\/_/\\\\/_/"$CL_BLU" \\\\/_/"$CL_RST
 echo -e
-echo -e $$CL_MAG"=============== Espmartin's ==============="$CL_RST
+echo -e $CL_MAG"=============== Espmartin's ==============="$CL_RST
 echo -e $CL_CYN"===========-Package is complete-==========="$CL_RST
 echo -e $CL_CYN"zip:"$CL_MAG" $OUTFILE"$CL_RST
 echo -e $CL_CYN"md5:"$CL_MAG" $(cat $img.md5sum | awk '{ print $1 }')"$CL_RST
