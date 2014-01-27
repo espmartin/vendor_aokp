@@ -19,7 +19,12 @@ PRODUCT_PACKAGES += \
     SwagPapers \
     Torch \
     UnicornPorn \
-    KitKatWhite
+    KitKatWhite \
+    Catlog \
+    RingsExtended \
+    GitHub \
+    fIRC \
+    Term
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_PROPERTY_OVERRIDES += \
