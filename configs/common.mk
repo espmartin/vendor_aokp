@@ -26,11 +26,6 @@ PRODUCT_PACKAGES += \
     fIRC \
     Term
 
-# Terminal Emulator
-PRODUCT_COPY_FILES += \
-    vendor/jackpal/proprietary/app/Term.apk:system/app/Term.apk \
-    vendor/jackpal/proprietary/lib/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
-
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.clientidbase=android-google
