@@ -7,23 +7,26 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/common
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/dictionaries
 
 PRODUCT_PACKAGES += \
+	Apollo \
     BluetoothExt \
+    Catlog \
     CellBroadcastReceiver \
+    CMFileManager \
+    DSPManager \
+    fIRC \
+    GitHub \
     libemoji \
+    KitKatWhite \
     LatinImeDictionaryPack \
     mGerrit \
     Microbes \
+    RingsExtended \
     ROMControl \
     Stk \
     su \
     SwagPapers \
     Torch \
     UnicornPorn \
-    KitKatWhite \
-    Catlog \
-    RingsExtended \
-    GitHub \
-    fIRC \
     Term
 
 # Terminal Emulator
