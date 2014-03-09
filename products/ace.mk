@@ -3,7 +3,7 @@ $(call inherit-product, vendor/aokp/configs/gsm.mk)
 $(call inherit-product, vendor/aokp/configs/common.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/htc/ace/full_ace.mk)
+$(call inherit-product, device/htc/ace/device.mk)
 
 PRODUCT_DEVICE := ace
 PRODUCT_NAME := aokp_ace
