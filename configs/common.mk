@@ -25,6 +25,7 @@ PRODUCT_PACKAGES += \
     Stk \
     su \
     SwagPapers \
+    SoundRecorder \
     Torch \
     UnicornPorn \
     Term
