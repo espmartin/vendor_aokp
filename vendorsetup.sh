@@ -10,6 +10,7 @@ add_lunch_combo aokp_d2att-userdebug
 add_lunch_combo aokp_d2tmo-userdebug
 add_lunch_combo aokp_d2usc-userdebug
 add_lunch_combo aokp_d2vzw-userdebug
+add_lunch_combo aokp_d2lte-userdebug
 add_lunch_combo aokp_d800-userdebug
 add_lunch_combo aokp_d801-userdebug
 add_lunch_combo aokp_d802-userdebug
