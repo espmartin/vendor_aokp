@@ -1,5 +1,6 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/a510.mk \
+    $(LOCAL_DIR)/amami.mk \
     $(LOCAL_DIR)/d2lte.mk \
     $(LOCAL_DIR)/d800.mk \
     $(LOCAL_DIR)/d801.mk \
@@ -17,6 +18,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/i9100.mk \
     $(LOCAL_DIR)/i9100g.mk \
     $(LOCAL_DIR)/i9300.mk \
+    $(LOCAL_DIR)/i9500.mk \
     $(LOCAL_DIR)/jflte.mk \
     $(LOCAL_DIR)/l900.mk \
     $(LOCAL_DIR)/ls980.mk \
@@ -28,6 +30,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/manta.mk \
     $(LOCAL_DIR)/maserati.mk \
     $(LOCAL_DIR)/mint.mk \
+    $(LOCAL_DIR)/moto_msm8960dt.mk \
     $(LOCAL_DIR)/odin.mk \
     $(LOCAL_DIR)/p930.mk \
     $(LOCAL_DIR)/pollux.mk \
@@ -45,6 +48,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/umtsspyder.mk \
     $(LOCAL_DIR)/vs920.mk \
     $(LOCAL_DIR)/vs980.mk \
-    $(LOCAL_DIR)/xt1053.mk \
-    $(LOCAL_DIR)/xt1060.mk \
     $(LOCAL_DIR)/yuga.mk
