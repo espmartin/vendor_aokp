@@ -12,15 +12,19 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/grouper
 
 # Setup device specific product configuration.
 PRODUCT_NAME := aokp_tilapia
-PRODUCT_BRAND := google
+PRODUCT_BRAND := Google
 PRODUCT_DEVICE := tilapia
 PRODUCT_MODEL := Nexus 7
-PRODUCT_MANUFACTURER := asus
+PRODUCT_MANUFACTURER := Asus
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=nakasig BUILD_FINGERPRINT="google/nakasig/tilapia:4.2.1/JOP40D/533553:user/release-keys" PRIVATE_BUILD_DESC="nakasig-user 4.2.1 JOP40D 533553 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=nakasig BUILD_FINGERPRINT="google/nakasig/tilapia:4.4.3/KTU84L/1148727:user/release-keys" PRIVATE_BUILD_DESC="nakasig-user 4.4.3 KTU84L 1148727 release-keys"
 
 PRODUCT_COPY_FILES += \
+<<<<<<< HEAD
     vendor/aokp/prebuilt/bootanimation/bootanimation_1280_800.zip:system/media/bootanimation-alt.zip
+=======
+    vendor/aokp/prebuilt/bootanimation/bootanimation_800.zip:system/media/bootanimation.zip
+>>>>>>> a622a660b5e6f9af790aad29cb9ea77975cfe4f1
 
 PRODUCT_PACKAGES += \
     Mms

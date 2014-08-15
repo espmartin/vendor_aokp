@@ -35,10 +35,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/jackpal/proprietary/app/Term.apk:system/app/Term.apk \
     vendor/jackpal/proprietary/lib/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
-=======
-    UnicornBeam \
-    KitKatWhite
->>>>>>> b42671b... Build UnicornBeam
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_PROPERTY_OVERRIDES += \

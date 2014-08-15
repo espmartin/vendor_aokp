@@ -14,3 +14,9 @@ $(call inherit-product, vendor/aokp/configs/vzw.mk)
 
 PRODUCT_DEVICE := d2lte
 PRODUCT_NAME := aokp_d2lte
+<<<<<<< HEAD
+=======
+
+PRODUCT_COPY_FILES +=  \
+    vendor/aokp/prebuilt/bootanimation/bootanimation_720.zip:system/media/bootanimation.zip
+>>>>>>> a622a660b5e6f9af790aad29cb9ea77975cfe4f1
